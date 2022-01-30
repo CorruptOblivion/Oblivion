@@ -1,7 +1,7 @@
 --https://github.com/Nosssa
 _G.Prediction =  (  .18  )
 
-_G.FOV =  (  50  )
+_G.FOV =  (  350  )
 
 _G.AimKey =  (  "c"  )
 
