@@ -10,8 +10,7 @@
 ░        ░ ░ ░ ▒    ░░   ░   ░░   ░  ░░░ ░ ░ ░░         ░         ░ ░ ░ ▒   ░    ░   ░ ░    ▒ ░     ░░   ▒ ░░ ░ ░ ▒     ░   ░ ░ 
 ░ ░          ░ ░     ░        ░        ░                              ░ ░   ░          ░  ░ ░        ░   ░      ░ ░           ░ 
 ░                                                                                ░                  ░                           
-]]
-
 Discord: This is a roblox studio plugin meant to help people with building.
+]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/loader.lua"))()
