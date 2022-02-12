@@ -1,3 +1,8 @@
+--[[
+
+Blacklisted users
+
+]]
 blacklisted = {}
 
 if table.find(blacklisted, game:GetService("Players").LocalPlayer.UserId) then
