@@ -3,7 +3,10 @@
 Blacklisted users
 
 ]]
-blacklisted = {}
+blacklisted = {
+1516191706, --Incopetent kid 
+
+}
 
 if table.find(blacklisted, game:GetService("Players").LocalPlayer.UserId) then
       game:GetService("StarterGui"):SetCore("SendNotification", {
