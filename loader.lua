@@ -1,3 +1,4 @@
+--Loader (not obfuscating because that just causes more fps issues)
 if game:GetService("CoreGui"):FindFirstChild("Oblivion") then
         game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Oblivion",
