@@ -5,13 +5,7 @@ if game:GetService("CoreGui"):FindFirstChild("Oblivion") then
         Text = "You only need to execute once. This will lag your game.",
         Duration = 25
     })    
-end
-
-game:GetService("StarterGui"):SetCore("SendNotification", {
-     Title = "IMPORTANT",
-      Text = "IT IS NOT RECOMMENDED TO INJECT | POSSIBLE ROBLOX BAN WAVE, PLEASE USE AUTO LAUNCH IF YOU'RE USING SYNAPSE",
-      Duration = 25
-})   
+end 
 
 if game.PlaceId == 2788229376 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/Games/DaHood.lua"))()
