@@ -7,6 +7,12 @@ if game:GetService("CoreGui"):FindFirstChild("Oblivion") then
     })    
 end 
 
+game:GetService("StarterGui"):SetCore("SendNotification", {
+  Title = "Oblivion",
+  Text = "No slowdown is buggy dont use it unless you want 20 fps",
+  Duration = 25
+})  
+
 if game.PlaceId == 2788229376 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/Games/DaHood.lua"))()
 end
