@@ -10,7 +10,7 @@ end
 game:GetService("StarterGui"):SetCore("SendNotification", {
   Title = "Oblivion",
   Text = "Loading Oblivion..",
-  Duration = 25,
+  Duration = 15,
   Icon = 'rbxassetid://9423555621'
 }) 
 
