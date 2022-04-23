@@ -9,13 +9,13 @@ end
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
   Title = "Oblivion",
-  Text = "No slowdown is buggy dont use it unless you want 20 fps",
-  Duration = 25
-})  
+  Text = "Loading Oblivion..",
+  Duration = 25,
+  Icon = 'rbxassetid://9423555621'
+}) 
 
 if game.PlaceId == 2788229376 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/Games/DaHood.lua"))()
-end
-if game.PlaceId == 5602055394 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/Games/DaHoodModded.lua"))()
+        elseif  game.PlaceId == 5602055394 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/Games/DaHoodModded.lua"))()    
 end
