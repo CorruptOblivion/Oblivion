@@ -1,4 +1,4 @@
---Loader (not obfuscating because that just causes more fps issues)
+--Please dont leak the loader guys its so rare and took me 100 years to make guys dont!!!
 if game:GetService("CoreGui"):FindFirstChild("Oblivion") then
         game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Oblivion",
