@@ -1,4 +1,5 @@
 --https://github.com/Nosssa
+--Skid this shit and i will knock your teeth out and rape your sister
 _G.Prediction =  (  .18  )
 
 _G.FOV =  (  250  )
