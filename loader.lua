@@ -17,5 +17,12 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 if game.PlaceId == 2788229376 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/Games/DaHood.lua"))()
         elseif  game.PlaceId == 5602055394 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/Games/DaHoodModded.lua"))()    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/Games/DaHoodModded.lua"))()
+        else
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Oblivion",
+        Text = "Game not supported!",
+        Duration = 25,
+        Icon = 'rbxassetid://9423555621'                
+    })    
 end
