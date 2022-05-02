@@ -19,7 +19,10 @@ local Camera = game:GetService("Workspace").CurrentCamera
 hookmetamethod = hookmetamethod
 Drawing = Drawing
 
-local FOV_CIRCLE = Drawing.new("Circle")
+_G.FOV_CIRCLE = Drawing.new("Circle")
+
+local FOV_CIRCLE = _G.FOV_CIRCLE
+
 FOV_CIRCLE.Visible = true
 FOV_CIRCLE.Filled = false
 FOV_CIRCLE.Thickness = 1
