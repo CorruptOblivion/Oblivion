@@ -26,3 +26,5 @@ if game.PlaceId == 2788229376 then
         Icon = 'rbxassetid://9423555621'                
     })    
 end
+
+_G.Tick = tick()
