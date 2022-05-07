@@ -14,6 +14,8 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
   Icon = 'rbxassetid://9423555621'
 }) 
 
+_G.Tick = tick()
+
 if game.PlaceId == 2788229376 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/Games/DaHood.lua"))()
         elseif  game.PlaceId == 5602055394 then
@@ -26,5 +28,3 @@ if game.PlaceId == 2788229376 then
         Icon = 'rbxassetid://9423555621'                
     })    
 end
-
-_G.Tick = tick()
