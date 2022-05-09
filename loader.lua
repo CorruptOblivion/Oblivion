@@ -3,7 +3,8 @@ if game:GetService("CoreGui"):FindFirstChild("Oblivion") then
         game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Oblivion",
         Text = "You only need to execute once. This will lag your game.",
-        Duration = 25
+        Duration = 25,
+        Icon = 'rbxassetid://9423555621'
     })    
 end 
 
