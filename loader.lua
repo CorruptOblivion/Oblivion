@@ -19,7 +19,7 @@ _G.Tick = tick()
 
 if game.PlaceId == 2788229376 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/Games/DaHood.lua"))()
-        elseif  game.PlaceId == 5602055394 then
+        elseif  game.PlaceId == 5602055394 or 7951883376 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/Games/DaHoodModded.lua"))()
         else
         game:GetService("StarterGui"):SetCore("SendNotification", {
