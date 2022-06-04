@@ -17,17 +17,6 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
   Icon = 'rbxassetid://9423555621'
 }) 
 
-spawn(function()
-wait(5)
-game:GetService("StarterGui"):SetCore("SendNotification", {
- Title = "Oblivion",
- Text = "Join the discord, road to 1k members!! (copied to clipboard)",
- Duration = 15,
- Icon = 'rbxassetid://9423555621'
-}) 
-setclipboard('https://discord.gg/yjVJnMXjhR')
-end)
-
 _G.Tick = tick()
 
 if game.PlaceId == 2788229376 then
