@@ -12,7 +12,7 @@ end
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
   Title = "Oblivion",
-  Text = "Silent aim is laggy im working on a fix",
+  Text = "Loading Oblivion...",
   Duration = 15,
   Icon = 'rbxassetid://9423555621'
 }) 
