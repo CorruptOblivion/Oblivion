@@ -13,7 +13,7 @@ end
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
   Title = "Oblivion",
-  Text = "Loading Oblivion...",
+  Text = "If theres any bugs let me know in the discord",
   Duration = 15,
   Icon = 'rbxassetid://9423555621'
 }) 
