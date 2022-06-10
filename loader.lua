@@ -8,7 +8,6 @@ if game:GetService("CoreGui"):FindFirstChild("Oblivion") then
         Duration = 25,
         Icon = 'rbxassetid://9423555621'
     })
-   return wait(999)
 end 
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
