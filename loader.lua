@@ -12,10 +12,21 @@ end
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
   Title = "Oblivion",
-  Text = "If theres any bugs let me know in the discord",
+  Text = "Loading Oblivion...",
   Duration = 15,
   Icon = 'rbxassetid://9423555621'
 }) 
+
+if not game:GetService('Players').LocalPlayer:IsInGroup(15070691) then
+        --idk why github made this look like shit but i dont want to fix it
+	setclipboard('https://www.roblox.com/groups/15070691/OblivionW#!/about')	
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+           Title = "Oblivion",
+           Text = "JOIN THE GROUP! (Copied to Clipboard)",
+           Duration = 15,
+           Icon = 'rbxassetid://9423555621'
+        }) 
+end
 
 _G.Tick = tick()
 
