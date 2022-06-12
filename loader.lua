@@ -16,7 +16,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
   Duration = 15,
   Icon = 'rbxassetid://9423555621'
 }) 
-
+spawn(function()
 if not game:GetService('Players').LocalPlayer:IsInGroup(15070691) then
         --idk why github made this look like shit but i dont want to fix it
 	setclipboard('https://www.roblox.com/groups/15070691/OblivionW#!/about')	
@@ -27,6 +27,7 @@ if not game:GetService('Players').LocalPlayer:IsInGroup(15070691) then
            Icon = 'rbxassetid://9423555621'
         }) 
 end
+end)
 
 _G.Tick = tick()
 
