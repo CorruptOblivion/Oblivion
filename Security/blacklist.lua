@@ -8,6 +8,7 @@ local player = game:GetService('Players').LocalPlayer
 
 local die = function(args)
  player:Kick('\nYour account has been blacklisted from using Oblivion for the following reason: ' .. args)
+ wait(0.5)
  while true do end
 end
 
