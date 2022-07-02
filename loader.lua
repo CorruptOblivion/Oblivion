@@ -1,4 +1,3 @@
---Please dont leak the loader guys its so rare and took me 100 years to make guys dont!!!
 repeat wait() until game:IsLoaded()
 
 if game:GetService("CoreGui"):FindFirstChild("Oblivion") then
