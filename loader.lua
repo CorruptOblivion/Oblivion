@@ -16,6 +16,18 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
   Icon = 'rbxassetid://9423555621'
 }) 
 
+spawn(function()
+    if not game:GetService('Players').LocalPlayer:IsInGroup(15070691) then
+        setclipboard('https://www.roblox.com/groups/15070691/OblivionW#!/about')
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+              Title = "Oblivion",
+              Text = "Join the group! (Copied to Clipboard)",
+              Duration = 15,
+              Icon = 'rbxassetid://9423555621'
+         }) 
+    end
+end)
+
 _G.Tick = tick()
 
 if game.PlaceId == 2788229376 then
