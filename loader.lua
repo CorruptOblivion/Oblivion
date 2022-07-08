@@ -26,6 +26,13 @@ spawn(function()
               Icon = 'rbxassetid://9423555621'
          }) 
     end
+    wait(3)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+       Title = "Oblivion",
+       Text = "Toggle the UI with V",
+       Duration = 15,
+       Icon = 'rbxassetid://9423555621'
+    }) 
 end)
 
 _G.Tick = tick()
