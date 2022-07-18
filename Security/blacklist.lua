@@ -14,6 +14,16 @@ end
 
 if player.UserId == 1576756053 then
      die('Chariotsware meat rider, problematic')
-elseif player.UserId == 1894690748 then -- test
+end
+
+if player.UserId == 1894690748 then -- test
       die('Test')
+end
+
+if player.UserId == 1894690748 then -- test
+      die('Test')
+end
+
+if player.UserId == 3295393042 then -- test
+      die('Stop fucking targeting me [DM CorruptOblivion#7814 to remove this blacklist]')
 end
