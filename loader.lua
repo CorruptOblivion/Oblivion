@@ -16,6 +16,11 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
   Icon = 'rbxassetid://9423555621'
 }) 
 
+--Temp fix
+if game:GetService("Workspace").Ignored:FindFirstChild('Shop') then
+    game:GetService("Workspace").Ignored:FindFirstChild('Shop').Parent = workspace
+end
+
 spawn(function()
     if not game:GetService('Players').LocalPlayer:IsInGroup(15070691) then
         setclipboard('https://www.roblox.com/groups/15070691/OblivionW#!/about')
