@@ -11,7 +11,7 @@ end
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
   Title = "Oblivion",
-  Text = "SCRIPT IS SEMI BROKEN, UPDATE FIXING IT WILL COME SOON",
+  Text = "Loading Oblivion [Semi Broken]",
   Duration = 5,
   Icon = 'rbxassetid://9423555621'
 }) 
