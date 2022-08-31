@@ -1,4 +1,4 @@
-repeat wait() until game:IsLoaded()
+repeat task.wait() until game:IsLoaded()
 
 if game:GetService("CoreGui"):FindFirstChild("Oblivion") then
         game:GetService("StarterGui"):SetCore("SendNotification", {
@@ -21,7 +21,7 @@ if game:GetService("Workspace").Ignored:FindFirstChild('Shop') then
     game:GetService("Workspace").Ignored:FindFirstChild('Shop').Parent = workspace
 end
 
-spawn(function()
+task.spawn(function()
     if not game:GetService('Players').LocalPlayer:IsInGroup(15070691) then
         setclipboard('https://www.roblox.com/groups/15070691/OblivionW#!/about')
         game:GetService("StarterGui"):SetCore("SendNotification", {
@@ -31,7 +31,7 @@ spawn(function()
               Icon = 'rbxassetid://9423555621'
          }) 
     end
-    wait(3)
+    task.wait(3)
     game:GetService("StarterGui"):SetCore("SendNotification", {
        Title = "Oblivion",
        Text = "Toggle the UI with V",
