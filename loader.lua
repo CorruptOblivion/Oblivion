@@ -7,7 +7,7 @@ if game:GetService("CoreGui"):FindFirstChild("Oblivion") then
         Duration = 25,
         Icon = 'rbxassetid://9423555621'
     })
-    -- print('[]')
+    -- print('[Re Executing]')
 end 
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
