@@ -12,7 +12,7 @@ end
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
   Title = "Oblivion",
-  Text = "[NOTICE] Please DM CorruptOblivion#7914 if you are having issues with using Fluxus or KRNL.",
+  Text = "[NOTICE] Please DM CorruptOblivion#7914 if you are having issues with using Fluxus, KRNL or any other free executor",
   Duration = 5,
   Icon = 'rbxassetid://9423555621'
 }) 
