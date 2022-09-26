@@ -15,11 +15,3 @@ end
 if player.UserId == 1576756053 then
      die('Chariotsware meat rider, problematic')
 end
-
-if player.UserId == 1894690748 then -- test
-      die('Test')
-end
-
-if player.UserId == 1894690748 then -- test
-      die('Test')
-end
