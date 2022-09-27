@@ -10,9 +10,15 @@ if game:GetService("CoreGui"):FindFirstChild("Oblivion") then
     -- print('[Re Executing]')
 end 
 
+local HoodModdedPlaces = {
+    5602055394, -- Regular
+    9610943121, -- Banland
+    7951883376, -- Voice
+}
+
 game:GetService("StarterGui"):SetCore("SendNotification", {
   Title = "Oblivion",
-  Text = "Loading Oblivion Hood Modded..",
+  Text = "Loading Script...",
   Duration = 5,
   Icon = 'rbxassetid://9423555621'
 }) 
@@ -40,7 +46,7 @@ _G.Tick = tick()
 
 if game.PlaceId == 2788229376 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/Games/DaHood.lua"))()
-        elseif  game.PlaceId == 5602055394 or 7951883376 then
+        elseif table.find(HoodModdedPlaces, game.PlaceId) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/Games/DaHoodModded.lua"))()
         else
         game:GetService("StarterGui"):SetCore("SendNotification", {
