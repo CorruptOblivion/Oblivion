@@ -14,6 +14,7 @@ local HoodModdedPlaces = {
     5602055394, -- Regular
     9610943121, -- Banland
     7951883376, -- Voice
+    9293553078, -- Ranked
 }
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
