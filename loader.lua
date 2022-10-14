@@ -35,6 +35,10 @@ local HoodModdedPlaces = {
     9293553078, -- Ranked
 }
 
+local DaHoodPlaces = {
+    2788229376, -- Regular
+}
+
 game:GetService("StarterGui"):SetCore("SendNotification", {
   Title = "Oblivion",
   Text = "Loading Script...",
@@ -63,7 +67,7 @@ end)
 
 _G.Tick = tick()
 
-if game.PlaceId == 2788229376 then
+if table.find(DaHoodPlaces, game.PlaceId) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/Games/DaHood.lua"))()
         elseif table.find(HoodModdedPlaces, game.PlaceId) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/Games/DaHoodModded.lua"))()
