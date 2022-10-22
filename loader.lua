@@ -77,7 +77,7 @@ if table.find(DaHoodPlaces, game.PlaceId) then
         game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Oblivion",
         Text = "Game not supported!",
-        Duration = 25,
+        Duration = 15,
         Icon = 'rbxassetid://9423555621'                
     })    
 end
