@@ -43,7 +43,7 @@ local DaHoodPlaces = {
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
   Title = "Oblivion",
-  Text = "Hood modded godmode is patched dont use it",
+  Text = "Loading script..",
   Duration = 5,
   Icon = 'rbxassetid://9423555621'
 }) 
