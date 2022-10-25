@@ -15,3 +15,7 @@ end
 if player.UserId == 1576756053 then
      die('Chariotsware meat rider, problematic')
 end
+
+if player.UserId == 2954177801 then
+     die('Delete your account that claims to be and ill remove your blacklist')
+end
