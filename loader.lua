@@ -50,6 +50,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 
 task.spawn(function()
     if not game:GetService('Players').LocalPlayer:IsInGroup(15070691) then
+        task.wait(1)
         setclipboard('https://www.roblox.com/groups/15070691/OblivionW#!/about')
         game:GetService("StarterGui"):SetCore("SendNotification", {
               Title = "Oblivion",
