@@ -43,7 +43,7 @@ local DaHoodPlaces = {
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
   Title = "Oblivion",
-  Text = "Script was fixed sorry free executor users",
+  Text = "Loading script..",
   Duration = 5,
   Icon = 'rbxassetid://9423555621'
 }) 
