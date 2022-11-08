@@ -4,4 +4,4 @@
 loadstring(game:HttpGet('https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/loader.lua'))()
 ```
 
-http://oblivionw.tk
+https://oblivion.rocks/
