@@ -1,1 +1,1 @@
-OblivionW
+return 'OblivionW'
