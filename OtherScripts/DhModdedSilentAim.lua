@@ -29,7 +29,7 @@ FOV_CIRCLE.Visible = true
 FOV_CIRCLE.Filled = false
 FOV_CIRCLE.Thickness = 1
 FOV_CIRCLE.Transparency = 1
-FOV_CIRCLE.Color = Color3.new(0, 1, 0)
+FOV_CIRCLE.Color = Color3.fromRGB(138, 43, 226)
 FOV_CIRCLE.Radius = _G.FOV
 FOV_CIRCLE.Position = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
 -- Options
@@ -52,7 +52,7 @@ end coroutine.wrap(MoveFovCircle)()
 Mouse.KeyDown:Connect(function(KeyPressed)
     if KeyPressed == (_G.AimKey:lower()) then
         if SilentAim == false then
-            FOV_CIRCLE.Color = Color3.new(0, 1, 0)
+            FOV_CIRCLE.Color = Color3.fromRGB(138, 43, 226)
             SilentAim = true
         elseif SilentAim == true then
             FOV_CIRCLE.Color = Color3.new(1, 0, 0)
