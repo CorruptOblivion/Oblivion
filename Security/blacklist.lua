@@ -15,3 +15,7 @@ end
 if player.UserId == 1576756053 then
      die('Chariotsware meat rider, problematic')
 end
+
+if player.UserId == 2205701910 then
+  die('KILL YOURSELF AND STOP RIPPING SHIT FROM MY REPOSITORY')
+end 
