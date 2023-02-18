@@ -7,7 +7,7 @@ Blacklisted users
 local player = game:GetService('Players').LocalPlayer
 
 local die = function(args)
- player:Kick('\nYour account has been blacklisted from using Oblivion for the following reason: ' .. args .. '\n If you think this is a mistake, send this to CorruptOblivion#7914')
+ player:Kick('\n[OBLIVION]: BLACKLISTED: '..args..'.')
  task.wait(1)
  while true do end
 end
@@ -19,3 +19,7 @@ end
 if player.UserId == 2205701910 then
   die('KILL YOURSELF AND STOP RIPPING SHIT FROM MY REPOSITORY')
 end 
+
+if player.UserId == 3731002752 then
+    die('Sending CP in my server with an alt. PS.. You did a terrible job at covering your tracks')
+end
