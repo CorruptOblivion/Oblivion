@@ -1,1 +1,1 @@
-
+local a={"TeleportDetect","CHECKER_1","CHECKER_2","OneMoreTime"}local b;b=hookmetamethod(game,'__namecall',function(...)local c={...}local d=getnamecallmethod()if d=='FireServer'and c[1]=='MainEvent'and table.find(a,c[2])then return end;return b(table.unpack(c))end)
