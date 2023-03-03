@@ -2,6 +2,8 @@
 
 Blacklisted users
 
+!! YOU ARE A CERTIFIED SKID IF YOU THINK YOU ARE LEAKING THIS BY FINDING IT
+
 ]]
 
 local player = game:GetService('Players').LocalPlayer
