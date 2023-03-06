@@ -6,22 +6,11 @@ Blacklisted users
 
 ]]
 
-local player = game:GetService('Players').LocalPlayer
+local BL_TBL = {
+ [1576756053] = 'Chariotsware meat rider, problematic',
+ [2205701910] = 'KILL YOURSELF AND STOP RIPPING SHIT FROM MY REPOSITORY',
+ [3731002752] = 'Sending CP in my server with an alt. PS.. You did a terrible job at covering your tracks',
+ [2704543218] = 'Crack attempt (x13)',
+}
 
-local die = function(args)
- player:Kick('\n[OBLIVION]: BLACKLISTED: '..args..'.')
- task.wait(1)
- while true do end
-end
-
-if player.UserId == 1576756053 then
-     die('Chariotsware meat rider, problematic')
-end
-
-if player.UserId == 2205701910 then
-  die('KILL YOURSELF AND STOP RIPPING SHIT FROM MY REPOSITORY')
-end 
-
-if player.UserId == 3731002752 then
-    die('Sending CP in my server with an alt. PS.. You did a terrible job at covering your tracks')
-end
+return BL_TBL
