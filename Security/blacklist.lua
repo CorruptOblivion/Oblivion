@@ -12,6 +12,7 @@ local BL_TBL = {
  [3731002752] = 'Sending CP in my server with an alt. PS.. You did a terrible job at covering your tracks',
  [2704543218] = 'Crack attempt (x13)',
  [2671971680] = 'Retarded',
+ [2954177801] = 'Kill yourself'
 }
 
 return BL_TBL
