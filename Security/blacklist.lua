@@ -13,6 +13,7 @@ local BL_TBL = {
  [2704543218] = 'Crack attempt (x13)',
  [2671971680] = 'Retarded',
  [2954177801] = 'Kill yourself',
+ [2710395518] = 'Avertising servers like a retard | DM CorruptOblivion#7914 to be unblacklisted.',
 }
 
 return BL_TBL
