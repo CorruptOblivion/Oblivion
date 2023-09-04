@@ -16,6 +16,7 @@ local BL_TBL = {
  [2710395518] = 'Avertising servers like a retard | DM CorruptOblivion#7914 to be unblacklisted.',
  [3875571556] = 'You didnt actually have premium lmfao | DM CorruptOblivion#7914 to be unblacklisted.',
  [3871654427] = 'lmao',
+ [3594574567] = 'Stop DMing ex mods asking them to date your "rich" friend XD',
 }
 
 return BL_TBL
