@@ -17,6 +17,7 @@ local BL_TBL = {
  [3875571556] = 'You didnt actually have premium lmfao | DM CorruptOblivion#7914 to be unblacklisted.',
  [3871654427] = 'lmao',
  [3594574567] = 'Stop DMing ex mods asking them to date your "rich" friend XD',
+ [3984781051] = 'You arent an Oblivion admin XD who r u',
 }
 
 return BL_TBL
