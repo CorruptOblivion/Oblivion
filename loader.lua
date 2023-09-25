@@ -12,13 +12,13 @@
 ░                                                                                ░                  ░                           
 C O R R U P T  O B L I V I O N
 
-discord.gg/OblivionW
+https://oblivion.rocks/invite
 
 !! NOTICE !! DO NOT DIRECTLY EXECUTE THE SOURCE, USE THE LOADSTRING FOUND IN discord.gg/OblivionW
 ]]
 
 --[[
-Join discord.gg/OblivionW For the actual loadstring Do not execute whats below
+Join https://oblivion.rocks/invite For the actual loadstring Do not execute whats below
 ]]
 
 -- This file was generated using Luraph Obfuscator v13.6.7
