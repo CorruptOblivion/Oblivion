@@ -18,6 +18,7 @@ local BL_TBL = {
  [3871654427] = 'lmao',
  [3594574567] = 'Stop DMing ex mods asking them to date your "rich" friend XD',
  [3984781051] = 'You arent an Oblivion admin XD who r u',
+ [12203646] = 'PGED tix account | imagine paying 1$ for that shit LMAOOO',
 }
 
 return BL_TBL
