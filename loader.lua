@@ -44,7 +44,7 @@ local _0x2, _0x3 = pcall(function()
 	local _0x8 = Instance.new('UICorner')
 
 	_0x6.Name = 'OblivionLoaderUI'
-	_0x6.Parent = game:GetService('Players').LocalPlayer.PlayerGui
+	_0x6.Parent = game.CoreGui
 	_0x6.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 	_0x7.Name = 'OblivionLogo'
