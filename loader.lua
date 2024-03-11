@@ -176,6 +176,10 @@ local _0x2, _0x3 = pcall(function()
 	end
 
 	_0x6:Destroy()
+
+	task.spawn(function()
+	  game:HttpGet('https://api.counterapi.dev/v1/:CorruptOblivion/:ExecCount/up') -- i dont fucking care if you spam this im probably gonna forget to check it anyways
+	end)
 end)
 
 if not _0x3 and _0x2 then 
