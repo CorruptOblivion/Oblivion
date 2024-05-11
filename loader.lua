@@ -68,7 +68,6 @@ local _0x2, _0x3 = pcall(function()
 		DaHood = {
 			2788229376,
 			7213786345,
-			16033173781,
 		},
 		UntitledHood = {
 			9183932460,
